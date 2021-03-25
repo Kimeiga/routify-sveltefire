@@ -88,4 +88,3 @@ Existing project: `npx routify-ts convert [project-directory]`
 ### Issues?
 
 File on Github! See https://github.com/sveltech/routify/issues .
-# routify-sveltefire
