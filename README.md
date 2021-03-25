@@ -1,3 +1,26 @@
+# Routify Sveltefire Starter
+
+- Routify (created with `npx @roxi/routify init`)
+- Changed `npm` to `yarn` since yarn's better
+- Installed [`sveltefire`](https://github.com/codediodeio/sveltefire) and `firebase`. Sveltefire is easy middleware for Firebase.
+- Put the default [Sveltefire](https://github.com/codediodeio/sveltefire-template/blob/master/src/App.svelte) page in the `index.svelte`
+- Activated the Service Worker for Routify like [this](https://routify.dev/guide/starter-Template/PWA_&_offline_first)
+
+I'm pretty sure this is the easiest way to make a web app with Firebase because:
+
+1. Svelte is the easiest JS framework that is actually quite performant
+2. Sveltefire is the easiest Firebase middleware I've ever used
+3. Routify is basically the only good router for Svelte since it uses static routing, can do SSR and prerendering, etc. The other routers for Svelte require a server (like Sapper) or use hash routing (bleh).
+
+So yea here you go. Go code and enjoy :)
+
+## Limitations 
+
+Cannot build SSR with Firebase Performance or Firebase Analytics because both require IndexedDB. I think there's a workaround but I haven't figured it out yet.
+If someone's willing to help out I would appreciate it.
+
+The following is the README from the default routify starter!
+
 # routify-starter
 
 Starter template for [Routify](https://github.com/sveltech/routify).
